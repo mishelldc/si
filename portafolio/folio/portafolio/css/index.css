@@ -1,0 +1,28 @@
+.root{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 6rem repeat(2, 1fr);
+    height: 1000px;
+    gap: 5px;
+}
+
+.dos{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: red;
+}
+.tres{
+    background-color: rgba(135, 207, 235, 0.103);
+    border: 1px solid black;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+.soporte{
+    grid-row-start: 3;
+    grid-column-start: 6;
+    grid-column-end: 2;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 255, 0.113);
+}

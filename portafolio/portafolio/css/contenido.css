@@ -1,0 +1,39 @@
+.contenedor {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; /* Distribuir las imágenes alrededor del espacio */
+    gap: 3rem;
+}
+
+img {
+    width: 30rem;
+    height: 30rem;
+}
+
+.botoness {
+    display: flex;
+    gap: 10rem; /* Espacio entre botones */
+    align-items: center; /* Alinear botones verticalmente con las imágenes */
+}
+
+.github {
+    background-color: gainsboro;
+    width: 10rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem; /* Añadir un espacio interno para los botones */
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.github:hover {
+    background-color: gray;
+    transition: background-color 1.5s;
+}
